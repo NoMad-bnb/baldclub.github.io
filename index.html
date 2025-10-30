@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Bald Club | $BALD</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Bald Club is a community-driven meme token on Base. Stay shiny. Stay bald.">
+  <link rel="icon" href="assets/logo.png">
+  <style>
+    :root{
+      --bg:#0d65d9; /* أزرق الخلفية */
+      --card:#ffffff;
+      --text:#0b1220;
+      --muted:#243449;
+      --link:#0b1220;
+    }
+    *{box-sizing:border-box}
+    html,body{margin:0;height:100%}
+    body{
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+      background: var(--bg);
+      color:#fff;
+      display:flex; align-items:center; justify-content:center;
+      padding:24px;
+    }
+    .wrap{
+      width:100%; max-width:860px;
+      background: var(--card);
+      color: var(--text);
+      border-radius:24px;
+      box-shadow: 0 12px 40px rgba(0,0,0,.15);
+      overflow:hidden;
+    }
+    header{
+      display:flex; gap:20px; align-items:center;
+      padding:28px; background:rgba(255,255,255,.96)
+    }
+    header img{
+      width:84px; height:84px; border-radius:18px; object-fit:cover; flex:0 0 auto;
+      border:2px solid rgba(13,101,217,.15)
+    }
+    header .t h1{margin:0; font-size:28px}
+    header .t p{margin:6px 0 0; color:var(--muted)}
+    main{padding:0 28px 28px}
+    .card{
+      background:#f7f9fc; border:1px solid #e6edf7; border-radius:16px; padding:18px 18px;
+      margin:16px 0;
+    }
+    .grid{display:grid; grid-template-columns:1fr 1fr; gap:16px}
+    .grid .card{margin:0}
+    .label{font-size:12px; letter-spacing:.4px; color:#60718a; text-transform:uppercase}
+    .val{font-weight:600; margin-top:6px; word-break:break-all}
+    a.link{color:var(--link); text-decoration:none; font-weight:600; border-bottom:1px dotted rgba(11,18,32,.35)}
+    a.link:hover{opacity:.85}
+    footer{
+      padding:16px 28px 24px; color:#eaf2ff; background:var(--bg); text-align:center; font-size:14px
+    }
+    code.addr{
+      background:#eef4ff; color:#0b1220; padding:8px 10px; border-radius:10px; display:block; font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; word-break:break-all
+    }
+    @media (max-width:720px){
+      .grid{grid-template-columns:1fr}
+      header{flex-direction:column; text-align:center}
+      header img{width:96px; height:96px}
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <img src="assets/logo.png" alt="Bald Club logo">
+      <div class="t">
+        <h1>Bald Club</h1>
+        <p>The boldest meme coin on Base. Stay shiny. Stay bald.</p>
+      </div>
+    </header>
+
+    <main>
+      <div class="card">
+        <p>
+          Bald Club is a community-driven meme token built on Base.
+          We lost our hair, not our alpha.
+        </p>
+      </div>
+
+      <div class="grid">
+        <div class="card">
+          <div class="label">Token info</div>
+          <div class="val">Name: Bald Club</div>
+          <div class="val">Symbol: BALD</div>
+          <div class="val">Network: Base</div>
+          <div class="val">Total Supply: 100,000,000,000</div>
+        </div>
+
+        <div class="card">
+          <div class="label">Contract</div>
+          <code class="addr">0xb5B6A3C349CDB30d449563EB7220382fBb8b2B07</code>
+          <p style="margin-top:10px">
+            <a class="link" href="https://basescan.org/address/0xb5B6A3C349CDB30d449563EB7220382fBb8b2B07" target="_blank" rel="noopener">View on BaseScan</a>
+          </p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="label">Links</div>
+        <p class="val">
+          <a class="link" href="YOUR_TELEGRAM_LINK" target="_blank" rel="noopener">Telegram</a>
+          &nbsp;|&nbsp;
+          <a class="link" href="https://www.geckoterminal.com/base/pools/0x8e72bff5d765b4d807ef357f7eeeddfcf97ec4d8aa12cddae60d3e84cefdaf52" target="_blank" rel="noopener">GeckoTerminal</a>
+          &nbsp;|&nbsp;
+          <a class="link" href="https://basescan.org/address/0xb5B6A3C349CDB30d449563EB7220382fBb8b2B07" target="_blank" rel="noopener">BaseScan</a>
+        </p>
+      </div>
+    </main>
+
+    <footer>
+      Bald Club © 2025. We lost our hair, not our alpha.
+    </footer>
+  </div>
+</body>
+</html>
